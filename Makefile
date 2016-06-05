@@ -1,5 +1,5 @@
 compile:
 	./gradlew build
 
-play: compile
+play:
 	./gradlew runClient
