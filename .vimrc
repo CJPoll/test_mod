@@ -5,11 +5,11 @@ set shiftwidth=4
 set noexpandtab
 
 set path=$PWD/src/**
-set wildignore+=*.so,*.swp,*.class
+set wildignore+=*.so,*.swp,*.class,build
 
 let g:ctrlp_map = '<C-p>'
 let g:ctrlp_custom_ignore = {
-      \ 'dir': '(\.git|node_modules)',
+      \ 'dir': '\.git|build',
       \}
 
 nnoremap <localleader>i :JavaImport<cr>
